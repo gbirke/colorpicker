@@ -1,0 +1,9 @@
+INSTALL
+
+Just put this folder in the lib/plugins folder in your DokuWiki directory. Put the file picker.png into the lib/images/toolbox folder. 
+
+Then go to the configuration page and define your color scheme in the form of
+Combination1=foreground/background
+Combination2=foreground/background
+Combination3=foreground/background
+...
