@@ -51,7 +51,7 @@ class action_plugin_colorpicker extends DokuWiki_Action_Plugin {
         continue;
       }
       $key = trim($combo[0]);
-      $colorvalue = trim($combo[1]);
+      $colorvalue = trim(preg_replace('/#.*$/', '', $combo[1])); // Remove comments
       if ($key && $colorvalue) {
         $color_list[$key] = $colorvalue;
       }
@@ -60,7 +60,7 @@ class action_plugin_colorpicker extends DokuWiki_Action_Plugin {
     {
       $event->data[] = array(
                   'type'   => 'colorpicker',
-                  'title'  => 'Color picker',
+                  'title'  => $this->getLang('colorpicker'),
                   'icon'   => 'picker.png',
                   'list'   => $color_list
                   );
