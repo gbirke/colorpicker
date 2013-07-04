@@ -1,9 +1,9 @@
 <?php
 /**
-
+ * Adds a color picker to the toolbar
  *
  * @package    colorpicker
- * @author     Gabriel Birke <birke@d-scribe.de>
+ * @author     Gabriel Birke <gb@birke-software.de>
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  */
  
@@ -12,21 +12,6 @@ if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 require_once(DOKU_PLUGIN.'action.php');
  
 class action_plugin_colorpicker extends DokuWiki_Action_Plugin {
- 
-  /**
-   * return some info
-   */
-  function getInfo(){
-    return array(
-     'author' => 'Gabriel Birke',
-     'email'  => 'birke@d-scribe.de',
-     'date'   => '2007-10-25',
-     'name'   => 'Color Picker',
-     'desc'   => 'This plugin shows a color picker in the editor toolbar.'. 
-                 'The allowed color combinations can be configured',
-     'url'    => 'http://www.d-scribe.de/',
-     );
-  }
  
   /*
    * Register the handlers with the dokuwiki's event controller

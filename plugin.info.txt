@@ -1,0 +1,7 @@
+base	colorpicker
+author	Gabriel Birke
+email	gb@birke-software.de
+date	2013-07-04
+name	Color Picker
+desc	This plugin shows a color picker in the editor toolbar. The allowed color combinations can be configured.
+url		https://www.dokuwiki.org/plugin:colorpicker
