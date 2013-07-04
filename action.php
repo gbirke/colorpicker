@@ -36,7 +36,7 @@ class action_plugin_colorpicker extends DokuWiki_Action_Plugin {
         continue;
       }
       $key = trim($combo[0]);
-      $colorvalue = trim(preg_replace('/#.*$/', '', $combo[1])); // Remove comments
+      $colorvalue = trim($combo[1]);
       if ($key && $colorvalue) {
         $color_list[$key] = $colorvalue;
       }
