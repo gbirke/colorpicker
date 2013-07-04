@@ -11,9 +11,10 @@ This plugin needs the [color plugin][1] to work!
 Put this folder in the lib/plugins folder in your DokuWiki directory. 
 
 Go to the configuration page and define your color scheme in the form of
-Combination1=foreground/background
-Combination2=foreground/background
-Combination3=foreground/background
+
+    Combination1=foreground/background
+    Combination2=foreground/background
+    Combination3=foreground/background
 
 The button will only appaear, if there is a color scheme configured!
 
