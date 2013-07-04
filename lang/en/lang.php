@@ -1,3 +1,3 @@
 <?php
 
-$lang['js']['buttontext'] ='Teext';
+$lang['js']['buttontext'] ='Text';
