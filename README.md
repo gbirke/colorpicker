@@ -16,6 +16,8 @@ Go to the configuration page and define your color scheme in the form of
     Combination2=foreground/background
     Combination3=foreground/background
 
+The combination name will be used as the title (shown on mouseover) for the picker button.
+
 The button will only appaear, if there is a color scheme configured!
 
 [1]: https://www.dokuwiki.org/plugin:color
