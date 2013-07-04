@@ -46,7 +46,7 @@ class action_plugin_colorpicker extends DokuWiki_Action_Plugin {
       $event->data[] = array(
                   'type'   => 'colorpicker',
                   'title'  => $this->getLang('colorpicker'),
-                  'icon'   => 'picker.png',
+                  'icon'   => '../../plugins/colorpicker/picker.png',
                   'list'   => $color_list
                   );
     }
